@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #6C4E31;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    height: 100vh; 
+    padding-top: 100px; 
+}
+
+.header {
+    background-color: #603F26;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+}
+.logo {
+    margin-right: auto; /* Удаляет отступы справа */
+    background-color: transparent; /* Убедитесь, что фон прозрачный */
+    border: none; /* Убирает любые границы, если они есть */
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.navigation li {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FFEAC5;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #FFDBB5;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #FFDBB5;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #FFEAC5;
+}
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+button {
+    background-color: #FFDBB5;
+    color: #603F26;
+    border: none;
+    padding: 8px 16px; 
+    font-size: 0.9em; 
+    margin-top: 20px;
+    margin-left: 630px;
+    border-radius: 12px; 
+    width: 200px;
+}
+
+
+button:hover {
+    background-color: #FFEAC5;
+}
